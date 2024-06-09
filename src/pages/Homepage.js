@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Hero from "../components/Homepage/Hero/Hero";
 import OurMission from "../components/Homepage/OurMission/OurMission";
+import Subscription from "../components/Homepage/Subscription/Subscription";
 
 export default function Homepage(){
     useEffect(function(){
@@ -10,6 +11,7 @@ export default function Homepage(){
        <div>
         <Hero/>
         <OurMission/>
+        <Subscription/>
        </div>
     )
 }

@@ -1,0 +1,109 @@
+.subscription{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    background-color: #254051;
+}
+.support-section{
+    width: 50%;
+    /* background-image: url("./../../../assets/subImage.jpg"); */
+    background-size: cover;
+    background-position: top -10px left 50%;
+    padding: 4rem;
+    position: relative;
+    z-index: 5;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}
+.support-section > img{
+    position: absolute;
+    z-index: -1000;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top -10px left 50%;
+}
+.support-section h1,.support-section p,.support-section button{
+    position: relative;
+    z-index: 1000;
+    color: #f7f7f7;
+}
+.support-section p{
+    line-height: 1.5;
+}
+.support-section > .sub-shade{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.support-section > button{
+    width: 20%;
+    color: #254051;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+.subscription-section{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1rem;
+    color: #f7f7f7;
+    padding-left: 3rem;
+}
+.subscription-section h3{
+    font-size: 2.5rem;
+}
+.subscription-section label{
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+.subscription-section input{
+    width: 50%;
+    padding: 0.2rem 1rem;
+    /* border-radius: 6px; */
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #f7f7f7;
+    color: #f7f7f7;
+    font-size: 1.05rem;
+}
+.subscription-section input::placeholder{
+    color: lightgray;
+    font-weight: 100;
+    font-size: 1.05rem;
+}
+.subscription-section input:focus, .subscription-section input:focus-visible{
+    border: none;
+    border-bottom: 3px solid #f7f7f7;
+}
+.subscription-section button{
+    border: none;
+    background-color: #f7f7f7;
+    color: #254051;
+    width: 20%;
+    padding: 0.3rem 0.7rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    border: 2px solid #f7f7f7;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+.subscription-section button:hover{
+    background-color: #254051;
+    color: #f7f7f7;
+    border: 2px solid #f7f7f7;
+}
