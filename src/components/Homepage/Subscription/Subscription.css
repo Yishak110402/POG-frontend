@@ -107,3 +107,75 @@
     color: #f7f7f7;
     border: 2px solid #f7f7f7;
 }
+
+@media(max-width:1000px){
+    .subscription-section{
+        padding-left: 1rem;
+    }
+    .support-section p{
+        font-size: 0.9rem;
+    }
+    .support-section h1{
+        font-size: 1.5rem;
+    }
+    .support-section button{
+        font-size: 0.85rem;
+        width: 30%;
+    }
+    .subscription-section h3{
+        font-size: 1.7rem;
+    }
+    .subscription-section input{
+        font-size: 0.8rem;
+        padding-left: 0.1rem;
+    }
+    .subscription-section input::placeholder{
+        font-size: 0.8rem;
+    }
+    .subscription-section label{
+        margin-left: 0;
+    }
+}
+
+@media(max-width:750px){
+    .support-section{
+        padding: 2rem 1.5rem;
+    }
+    .support-section button{
+        width: 40%;        
+    }
+    .subscription-section{
+        padding: 2rem 1rem; 
+    }
+    .subscription-section h3{
+        font-size: 1.3rem;
+    }
+    .subscription-section label{
+        font-size: 0.74rem;
+    }
+    .subscription-section input{
+        font-size: 0.7rem;
+        width: 70%;
+    }
+    .subscription-section input::placeholder{
+        font-size: 0.7rem;
+    }
+}
+@media(max-width:600px){
+    .subscription{
+        flex-flow: column;
+        gap: 0;
+    }
+    .subscription>div{
+        width: 100%;
+
+    }
+}
+@media(max-width:420px){
+    .support-section h1{
+        font-size: 1.1rem;
+    }
+    .support-section p{
+        font-size: 0.9rem;
+    }
+}
