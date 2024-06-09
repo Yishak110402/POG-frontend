@@ -7,7 +7,7 @@ export default function Subscription() {
     <div className="subscription">
       <div className="support-section">
         <div className='sub-shade'></div>
-        <img src={subImage} />
+        <img src={subImage} alt='Doctors working together'/>
         <h1>"Transforming Lives Through the Gift of Medical Care"</h1>
         <p>
           We have recently secured $500,000.00 worth of medical equipment to

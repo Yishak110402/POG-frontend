@@ -23,7 +23,7 @@ export default function OurMission() {
         <Link to="/who-we-are">Read More</Link>
       </div>
       <div className="missions-image">
-        <img src={missionsImage}/>
+        <img src={missionsImage} alt="Doctor crossed hands"/>
 
       </div>
     </div>
