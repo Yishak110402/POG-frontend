@@ -4,7 +4,24 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 4rem;
+  position: sticky;
+  top: -5rem;
+  z-index: 1000;
+  animation: navbarSlideIn linear forwards;
+  animation-timeline: view();
+  animation-range-start: 160vh;
+  animation-range-end: 190vh;
 }
+@keyframes navbarSlideIn{
+  to{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #254051;
+    text-align: center;
+  }
+}
+
 .logo-container img {
   width: 200px;
 }

@@ -1,0 +1,32 @@
+.our-mission {
+  padding: 2rem 4em;
+  background-color: #f7f7f7;
+  color: #254051;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.mission-text {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 2rem;
+}
+.mission-text h1 {
+  font-size: 3.5rem;
+}
+.mission-text p {
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+.mission-text a{
+    color: inherit;
+    font-size: 1.1rem;
+    text-underline-offset: 0.3rem;
+}
+.missions-image img {
+  width: 40vw;
+  height: 700px;
+  border-radius: 10px;
+}

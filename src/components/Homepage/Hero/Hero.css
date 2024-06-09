@@ -1,0 +1,76 @@
+.hero {
+  position: relative;
+  margin-top: -5rem;
+}
+.hero-media {
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1000;
+  height: 50vh;
+}
+.hero-media video {
+  height: 101vh;
+  width: 100vw;
+  object-fit: cover;
+  object-position: center;
+}
+.hero-text {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 101vh;
+  padding: 10.5rem;
+  color: #f7f7f7;
+  gap: 4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-header h1 {
+  animation: slideIn 0.5s ease-in-out forwards ;
+  font-size: 4.5rem;
+  transition: all 0.2s ease;
+}
+.hero-content p {
+    animation: slideIn 0.5s ease-in-out forwards ;
+    transition-delay: 1s;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  filter: brightness(0.8);
+}
+.hero-cta-btns button {
+  border: none;
+  color: #f7f7f7;
+  background-color: #254051;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 300;
+  letter-spacing: 0.02rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  animation: slideUp 0.5s ease-in-out forwards;
+}
+.hero-cta-btns button:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0px 0px 10px black;
+}
+@keyframes slideIn {
+  from {
+    transform: translateX(-110%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideUp{
+    from{
+        transform: translateY(1050%);
+    }
+    to{
+        transform:  translateX(0);
+    }
+}
