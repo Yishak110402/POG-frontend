@@ -11,7 +11,7 @@ export default function Homepage(){
        <div>
         <Hero/>
         <OurMission/>
-        <Subscription/>
+        {/* <Subscription/> */}
        </div>
     )
 }

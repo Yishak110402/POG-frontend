@@ -20,13 +20,60 @@
   font-size: 1.05rem;
   line-height: 1.4;
 }
-.mission-text a{
-    color: inherit;
-    font-size: 1.1rem;
-    text-underline-offset: 0.3rem;
+.mission-text a {
+  color: inherit;
+  font-size: 1.1rem;
+  text-underline-offset: 0.3rem;
 }
 .missions-image img {
   width: 30vw;
   height: 500px;
   border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+  .missions-image img {
+    height: 400px;
+    /* width: 25vw; */
+  }
+}
+@media (max-width: 800px) {
+  .missions-image img {
+    height: 320px;
+    width: 33vw;
+    margin-top: 3rem;
+  }
+  .mission-text h1 {
+    font-size: 2.5rem;
+  }
+  .mission-text p {
+    font-size: 0.85rem;
+  }
+  .mission-text a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .missions-image img {
+    width: 40vw;
+    height: 320px;
+  }
+  .mission-text h1 {
+    font-size: 1.7rem;
+  }
+  .mission-text p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 550px) {
+  .our-mission {
+    flex-flow: column;
+    text-align: center;
+  }
+
+  .missions-image img {
+    width: 60vw;
+    margin-top: 0;
+  }
 }

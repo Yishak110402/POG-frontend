@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import heroVideo from "./../../../assets/herovideo.MOV";
-import './Hero.css'
+import "./Hero.css";
 export default function Hero() {
-    const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className="hero">
       <div className="hero-media">
@@ -22,7 +22,7 @@ export default function Hero() {
           </p>
         </div>
         <div className="hero-cta-btns">
-            <button onClick={()=>(navigate('/who-we-are'))}>Learn More</button>
+          <button onClick={() => navigate("/who-we-are")}>Learn More</button>
         </div>
       </div>
     </div>
