@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import heroVideo from "./../../../assets/herovideo.MOV";
-import heroImage from './../../../assets/heroImage.jpg'
+// import heroImage from './../../../assets/heroImage.jpg'
 import "./Hero.css";
 export default function Hero() {
   const navigate = useNavigate();
