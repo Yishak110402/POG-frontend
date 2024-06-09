@@ -7,8 +7,8 @@ export default function Hero() {
   return (
     <div className="hero">
       <div className="hero-media">
-        {/* <video src={heroVideo} loop muted autoPlay /> */}
-        <img src={heroImage} alt="Hospital"/>
+        <video src={heroVideo} loop muted autoPlay />
+        {/* <img src={heroImage} alt="Hospital"/> */}
       </div>
       <div className="hero-text">
         <div className="hero-header">
