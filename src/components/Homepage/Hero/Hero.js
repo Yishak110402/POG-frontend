@@ -1,12 +1,14 @@
 import { useNavigate } from "react-router-dom";
-import heroVideo from "./../../../assets/herovideo.MOV";
+// import heroVideo from "./../../../assets/herovideo.MOV";
+import heroImage from './../../../assets/heroImage.jpg'
 import "./Hero.css";
 export default function Hero() {
   const navigate = useNavigate();
   return (
     <div className="hero">
       <div className="hero-media">
-        <video src={heroVideo} loop muted autoPlay />
+        {/* <video src={heroVideo} loop muted autoPlay /> */}
+        <img src={heroImage}/>
       </div>
       <div className="hero-text">
         <div className="hero-header">

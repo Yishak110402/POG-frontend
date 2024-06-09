@@ -17,6 +17,12 @@
   object-fit: cover;
   object-position: center;
 }
+.hero-media img{
+  height: 101vh;
+  width: 100vw;
+  object-fit: cover;
+  object-position: top -30px left 50%;
+}
 .hero-text {
   display: flex;
   flex-flow: column;
