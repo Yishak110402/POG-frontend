@@ -1,4 +1,4 @@
-import { Children, createContext, useState } from "react";
+import { createContext, useState } from "react";
 
 export const GeneralContext = createContext()
 export default function GeneralProvider({children}){
