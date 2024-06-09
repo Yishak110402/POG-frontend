@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="logo-container">
         <NavLink to="/">
           {" "}
-          <img src={logo} />
+          <img src={logo} alt="Logo" />
         </NavLink>
       </div>
       <ul className={`nav-links ${navOpen? "open":""}`}>
