@@ -1,10 +1,9 @@
 import eventImage from "./../../../assets/medicalequipment.jpg"
 import './Event.css'
  export default function Event({name = "Event name", location = "Location is TBD", time ="Time is TBD"}){
-    if(name.length > 40){
-        name = name.substring(0,39) + "..."
+    if(name.length > 35){
+        name = name.substring(0,34) + "..."
     }
-    console.log(name);
     return(
         <div className="event">
             <img src={eventImage} alt=""/>
