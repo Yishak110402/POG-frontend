@@ -11,9 +11,9 @@ export default function Homepage(){
     },[])
     return(
        <main>
-        {/* <Hero/>
+        <Hero/>
         <OurMission/>
-        <Subscription/> */}
+        <Subscription/>
         <Projects/>
         <UpcomingEvents/>
        </main>
