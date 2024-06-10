@@ -1,13 +1,14 @@
 .navbar {
   background-color: #254051;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 4rem;
-  position: sticky;
-  top: -5rem;
+  position: fixed;
+  top: 0rem;
   z-index: 1000;
-  animation: navbarSlideIn linear forwards;
+  /* animation: navbarSlideIn linear forwards; */
   animation-timeline: view();
   animation-range-start: 160vh;
   animation-range-end: 190vh;
