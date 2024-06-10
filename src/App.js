@@ -3,6 +3,7 @@ import './index.css'
 import Navbar from "./components/Navbar/Navbar";
 import GeneralProvider from "./hooks/GeneralContext";
 import Homepage from "./pages/Homepage";
+import Footer from "./components/Footer/Footer";
 export default function App() {
   return (
     <GeneralProvider>
@@ -11,6 +12,7 @@ export default function App() {
       <Routes>
         <Route element={<Homepage/>} index/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
     </GeneralProvider>
   );
