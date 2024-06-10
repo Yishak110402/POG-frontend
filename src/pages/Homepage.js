@@ -5,6 +5,7 @@ import Subscription from "../components/Homepage/Subscription/Subscription";
 import Projects from "../components/Homepage/Projects/Projects";
 import UpcomingEvents from "../components/Homepage/UpcomingEvents/UpcomingEvents";
 import Texts from "../components/Homepage/Texts/Texts";
+import ContactUs from "../components/Homepage/ContactUs/ContactUs";
 
 export default function Homepage(){
     useEffect(function(){
@@ -18,6 +19,7 @@ export default function Homepage(){
         <Projects/>
         <UpcomingEvents/>
         <Texts/>
+        <ContactUs/>
        </main>
     )
 }

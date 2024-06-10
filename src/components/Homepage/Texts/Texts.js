@@ -9,6 +9,7 @@ export default function Texts() {
       donation of medical supplies and equipment. Join us in our mission to
       bring hope and relief to those in need!
       </p>
+      <button>Support Us</button>
     </div>
   );
 }

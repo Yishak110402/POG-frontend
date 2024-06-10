@@ -1,13 +1,26 @@
 .texts {
-  height: 60vh;
+  height: 85vh;
   background-image: url("./../../../assets/textsImage.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
   padding: 2rem 8rem;
   position: relative;
   background-size: cover;
   background-position: top 75% center;
+  gap: 2rem;
+}
+.texts button{
+    border: none;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    color: #254051;
+    position: relative;
+    z-index: 501;
+    padding: 0.5rem 0.7rem;
+    border-radius: 6px;
+    font-size: 1rem;
 }
 .texts p {
   color: #f7f7f7;
