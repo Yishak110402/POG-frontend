@@ -6,6 +6,7 @@ import Homepage from "./pages/Homepage";
 import Footer from "./components/Footer/Footer";
 import WhoWeAre from "./pages/WhoWeAre";
 import Events from "./pages/Events";
+import EventDetails from "./pages/EventDetails";
 export default function App() {
   return (
     <GeneralProvider>
@@ -15,6 +16,7 @@ export default function App() {
           <Route element={<Homepage />} index />
           <Route path="/who-we-are" element={<WhoWeAre />} />
           <Route path="/events" element={<Events/>}/>
+          <Route path="/events/:id" element={<EventDetails/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

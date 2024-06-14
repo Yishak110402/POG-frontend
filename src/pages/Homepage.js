@@ -10,6 +10,10 @@ import ContactUs from "../components/Homepage/ContactUs/ContactUs";
 export default function Homepage(){
     useEffect(function(){
         document.title = "Home | Providence of Grace"
+        window.scrollTo({
+            top:0,
+            behavior:"instant"
+        })
     },[])
     return(
        <main>
