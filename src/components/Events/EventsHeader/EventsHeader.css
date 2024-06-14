@@ -1,0 +1,14 @@
+.events-header{
+    padding: 2rem 4rem;
+    padding-top: 8rem;
+    color: #254051;
+    display: flex;
+    justify-content: space-between;
+}
+.events-header h1{
+    font-size: 3rem;
+}
+.events-header h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+}

@@ -18,6 +18,23 @@
     flex-wrap: wrap;
     margin-top: 3rem;
 }
+.upcoming-events button{
+    width: 120px;
+    background-color: #f7f7f7;
+    color: #254051;
+    border: 1px solid #254051;
+    padding: 0.5rem;
+    margin: 3rem auto;
+    margin-bottom: 0;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.upcoming-events button:hover{
+    background-color: #254051;
+    color: #f7f7f7;
+}
 @media(max-width:800px){
     .upcoming-events h1{
         font-size: 2rem;

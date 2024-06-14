@@ -1,0 +1,7 @@
+.all-events {
+  padding: 2rem 4rem;
+  display: flex;
+  /* flex-flow: column; */
+  gap: 2rem;
+  flex-wrap: wrap;
+}
