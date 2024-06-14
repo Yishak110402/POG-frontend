@@ -48,6 +48,10 @@ export default function GeneralProvider({ children }) {
     },
   ]);
 
+  function sendMessage(e){
+    e.preventDefault()
+    alert("Message Sent")
+  }
   return (
     <GeneralContext.Provider
       value={{
@@ -55,6 +59,7 @@ export default function GeneralProvider({ children }) {
         setNavOpen,
         events,
         setEvents,
+        sendMessage
       }}>
       {children}
     </GeneralContext.Provider>
