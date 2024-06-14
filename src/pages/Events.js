@@ -8,7 +8,7 @@ export default function Events(){
     useEffect(function(){
         document.title = "Events | Providence of Grace"
         setDialogOpen(false)
-    },[])
+    })
     return(
         <div>
            <EventsHeader/>
