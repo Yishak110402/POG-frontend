@@ -11,11 +11,6 @@ export default function AllEvents() {
           <AllEvent key={index} event={event} index={index}/>
         ))
       }
-      {/* <AllEvent />
-      <AllEvent />
-      <AllEvent />
-      <AllEvent />
-      <AllEvent /> */}
     </div>
   );
 }
