@@ -12,7 +12,7 @@ export default function EventHeader(){
             top:0,
             behavior:"instant"
         })
-    },[])
+    })
     return(
         <div className="event-detail-header">
             <h1>{events[id].name}</h1>
