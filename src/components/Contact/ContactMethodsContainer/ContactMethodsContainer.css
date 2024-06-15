@@ -1,0 +1,6 @@
+.contact-methods-container{
+    color: #254051;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}

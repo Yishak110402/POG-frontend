@@ -1,0 +1,15 @@
+.contact-methods{
+    width: 50%;
+}
+.methods li{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.methods li svg{
+    width: 50px;
+    height: 50px;
+    fill: #254051;
+}

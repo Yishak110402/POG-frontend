@@ -1,0 +1,13 @@
+.contact-header{
+    padding: 2rem 4rem;
+    padding-top: 7rem;
+    color: #254051;
+}
+.contact-header h1{
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+.contact-header p{
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
