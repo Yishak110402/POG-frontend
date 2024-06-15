@@ -60,6 +60,9 @@
     }
 }
 @media(max-width:450px){
+    .confirmation-dialog{
+        height: 60vh;
+    }
     .confirmation-dialog div{
         padding: 2rem 2rem;
     }
