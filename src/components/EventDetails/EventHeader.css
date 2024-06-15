@@ -34,15 +34,15 @@
     padding-inline: 2rem;
   }
 }
-@media(max-width:450px){
-    .event-detail-header h1{
-        font-size: 1rem;
-    }
-    .event-detail-header{
-        padding-inline: 1rem;
-    }
-    .event-detail-header img{
-        width: 95%;
-        height: 250px;
-    }
+@media (max-width: 450px) {
+  .event-detail-header h1 {
+    font-size: 1rem;
+  }
+  .event-detail-header {
+    padding-inline: 1rem;
+  }
+  .event-detail-header img {
+    width: 95%;
+    height: 250px;
+  }
 }

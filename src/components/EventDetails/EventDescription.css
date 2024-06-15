@@ -1,40 +1,70 @@
-.event-description{
-    padding: 1rem 4rem;
-    color: #254051;
-    text-align: center;
+.event-description {
+  padding: 1rem 4rem;
+  color: #254051;
+  text-align: center;
 }
-.event-description h4{
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-bottom: 3rem;
+.event-description h4 {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 1.5rem;
 }
-.event-description p{
-    line-height: 1.5;
-    font-size: 1.05rem;
-    margin-bottom: 1rem;
+.event-description p {
+  line-height: 1.5;
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
 }
-.event-description .description{
-    text-align: left;
+.event-description .description {
+  text-align: left;
 }
-.event-description h3{
+.event-description h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.event-description button {
+  background-color: #254051;
+  color: #f7f7f7;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #254051;
+  transition: all 0.2s ease;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.event-description button:hover {
+  color: #254051;
+  background-color: #f7f7f7;
+  border: 1px solid #254051;
+}
+@media (max-width: 800px) {
+  .event-description h4 {
     font-size: 1.2rem;
-    margin-bottom: 1rem;
+  }
+  .event-description p {
+    font-size: 0.9rem;
+  }
 }
-.event-description button{
-    background-color: #254051;
-    color: #f7f7f7;
-    border: none;
-    padding: 0.5rem;
+@media (max-width: 600px) {
+  .event-description {
+    padding-inline: 2rem;
+  }
+  .event-description button {
+    font-size: 0.85rem;
+  }
+  .event-description h4 {
     font-size: 1rem;
-    border-radius: 6px;
-    cursor: pointer;
-    border: 1px solid #254051;
-    transition: all 0.2s ease;
-    text-align: center;
-    margin-bottom: 5rem;
+  }
 }
-.event-description button:hover{
-    color: #254051;
-    background-color: #f7f7f7;
-    border: 1px solid #254051;
+@media (max-width: 450px) {
+  .event-description {
+    padding-inline: 1rem;
+  }
+  .event-description p {
+    font-size: 0.8rem;
+  }
+  .event-description h3 {
+    font-size: 1rem;
+  }
 }
