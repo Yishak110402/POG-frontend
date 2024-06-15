@@ -3,3 +3,21 @@
     padding-top: 7rem;
     color: #254051;
 }
+@media(max-width:850px){
+    .register-header h1{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:650px){
+    .register-header{
+        padding-inline: 2rem;
+    }
+}
+@media(max-width:550px){
+    .register-header h1{
+        font-size: 1rem;
+    }
+    .register-header{
+        padding-inline: 1rem;
+    }
+}

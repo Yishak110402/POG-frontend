@@ -46,3 +46,35 @@
     transform: translateY(-5px) scale(1.02);
     filter: drop-shadow(0px 15px 21px black);
 }
+
+@media(max-width:650px){
+    .register-form{
+        padding-inline: 2rem;
+    }
+    .register-form span{
+        font-size: 1rem;
+    }
+    .register-form form label{
+        font-size: 1rem;
+    }
+    .register-form form input{
+        font-size: 1rem;
+    }
+    .register-form form button{
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:500px){
+    .register-form span{
+        font-size: 0.85rem;
+    }
+    .register-form form label{
+        font-size: 0.85rem;
+    }
+    .register-form form input{
+        font-size: 0.85rem;
+    }
+    .register-form{
+        padding-inline: 1rem;
+    }
+}
