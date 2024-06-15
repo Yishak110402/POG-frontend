@@ -14,8 +14,8 @@ export default function UpcomingEvents(){
             <h3>Please mark your calendar for our upcoming exciting events</h3>
             <div className="events-container">
                 {
-                    trimmedEvents.map((event)=>(
-                        <Event event={event}/>
+                    trimmedEvents.map((event, index)=>(
+                        <Event event={event} index={index}/>
                     ))
                 }
             </div>

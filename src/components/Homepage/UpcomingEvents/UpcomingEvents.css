@@ -18,7 +18,7 @@
     flex-wrap: wrap;
     margin-top: 3rem;
 }
-.upcoming-events button{
+.upcoming-events >button{
     width: 120px;
     background-color: #f7f7f7;
     color: #254051;
