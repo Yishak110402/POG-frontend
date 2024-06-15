@@ -78,32 +78,31 @@
   transform: translateY(0);
 }
 
-@media(max-width:1050px){
-  .events-event{
+@media (max-width: 1050px) {
+  .events-event {
     width: 45%;
   }
 }
-@media(max-width:800px){
-  .events-event h2{
+@media (max-width: 800px) {
+  .events-event h2 {
     font-size: 1rem;
   }
-  .events-event button{
+  .events-event button {
     width: 50%;
   }
-  .events-event p{
+  .events-event p {
     font-size: 0.8rem;
   }
-  .events-event img{
+  .events-event img {
     height: 200px;
   }
-  .events-event{
+  .events-event {
     padding: 1rem;
   }
 }
 
-@media(max-width:500px){
-  .events-event{
+@media (max-width: 500px) {
+  .events-event {
     width: 100%;
   }
-  
 }
