@@ -3,7 +3,8 @@
   padding: 3rem 4rem;
   background-image: url("./../../../assets/emailBackground.jpg");
   background-size: cover;
-  background-position: top -290px center;
+  background-position: center;
+  /* background-position: top -290px center; */
   background-repeat: no-repeat;
   position: relative;
 }
@@ -61,4 +62,43 @@
     padding: 0.5rem;
     font-size: 0.9rem;
     margin: 0 auto;
+}
+@media(max-width:900px){
+
+.register-contact h2{
+    font-size: 1.4rem;
+}
+.register-contact form{
+    width: 80%;
+}
+}
+@media(max-width:750px){
+    .register-contact{
+        padding-inline: 2rem;
+    }
+    .register-contact form{
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+@media(max-width:550px){
+    .register-contact{
+        padding-inline: 1rem;
+    }
+    .register-contact h2{
+        font-size: 1rem;
+    }
+    .register-contact form label{
+        font-size: 0.8rem;
+    }
+    .register-contact form input{
+        font-size: 0.8rem;
+    }
+    .register-contact form button{
+        font-size: 0.8rem;
+        width: 40%;
+    }
+    .register-contact form textarea{
+        width: 80%;
+    }
 }
