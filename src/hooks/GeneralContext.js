@@ -12,7 +12,7 @@ export default function GeneralProvider({ children }) {
         "Join us for a special dinner in support of the Butajira Hospital donation drive. Your presence will help raise funds for essential medical equipment and supplies to benefit the local community.",
       date: {
         date: 14,
-        month: "June",
+        month: "Jun",
         year: 2024,
       },
     },
@@ -24,7 +24,7 @@ export default function GeneralProvider({ children }) {
         "Join us for an impactful community event focused on gathering and repurposing used medical equipment from hospitals across Dallas. This initiative aims to support healthcare facilities in under-resourced regions and contribute to sustainable healthcare practices.",
       date: {
         date: 14,
-        month: "July",
+        month: "Jul",
         year: 2024,
       },
     },
@@ -36,7 +36,7 @@ export default function GeneralProvider({ children }) {
         "Get ready for a season of fun and philanthropy with our Summer Fundraising Extravaganza! This event is designed to bring the community together to support Providence of Grace, while enjoying a variety of exciting activities under the summer sun.",
       date: {
         date: 25,
-        month: "July",
+        month: "Jul",
         year: 2024,
       },
     },
@@ -50,7 +50,7 @@ export default function GeneralProvider({ children }) {
     },
     {
       name: "Sunset Beach Medical Aid Fundraiser",
-      date: { date: "5", month: "August", year: "2024" },
+      date: { date: "5", month: "Aug", year: "2024" },
       location: "Location is TBD",
       time: "Time is TBD",
       description:
@@ -58,7 +58,7 @@ export default function GeneralProvider({ children }) {
     },
     {
       name: "Community BBQ for Ethiopia's Health",
-      date: { date: "30", month: "June", year: "2024" },
+      date: { date: "30", month: "Jun", year: "2024" },
       location: "Location is TBD",
       time: "Time is TBD",
       description:

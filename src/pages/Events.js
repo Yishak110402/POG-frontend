@@ -8,6 +8,10 @@ export default function Events(){
     useEffect(function(){
         document.title = "Events | Providence of Grace"
         setDialogOpen(false)
+        window.scrollTo({
+            top:0,
+            behavior:"instant"
+        })
     })
     return(
         <div>

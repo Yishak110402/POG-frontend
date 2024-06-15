@@ -15,9 +15,9 @@ export default function AllEvent({event, index}){
            <h2>{name}</h2>
            <p>Time is TBD | Location is TBD</p>
            <div className="date">
-            <h2>14</h2>
-            <h3>June</h3>
-            <h4>2024</h4>
+            <h2>{event.date.date}</h2>
+            <h3>{event.date.month}</h3>
+            <h4>{event.date.year}</h4>
            </div>
            <button onClick={()=>(navigate(`/events/${index}`))}>See details</button>
         </div>
