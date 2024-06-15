@@ -3,7 +3,7 @@ import { createContext, useState } from "react"
 export const RegisterContext = createContext()
 
 export default function RegisterProvider({children}){
-    const [dialogOpen, setDialogOpen] = useState(false)
+    const [dialogOpen, setDialogOpen] = useState(true)
 
     function handleRegister(e){
         e.preventDefault()

@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
     z-index: 500;
     background-color: rgba(255,255,255,0.7);
     display: flex;
@@ -45,4 +45,29 @@
     border: 1px solid #254051;
     background-color: #f7f7f7;
     color: #254051;
+}
+@media(max-width:750px){
+    .confirmation-dialog{
+        height: 70vh;
+    }
+    .confirmation-dialog div p{
+        font-size: 1rem;
+    }
+}
+@media(max-width:550px){
+    .confirmation-dialog{
+        height: 65vh;
+    }
+}
+@media(max-width:450px){
+    .confirmation-dialog div{
+        padding: 2rem 2rem;
+    }
+    .confirmation-dialog p{
+        font-size: 0.85rem;
+    }
+    .confirmation-dialog button{
+        font-size: 0.85rem;
+
+    }
 }
