@@ -1,16 +1,21 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import "./index.css";
+
 import Navbar from "./components/Navbar/Navbar";
-import GeneralProvider from "./hooks/GeneralContext";
-import Homepage from "./pages/Homepage";
 import Footer from "./components/Footer/Footer";
+
+import Homepage from "./pages/Homepage";
 import WhoWeAre from "./pages/WhoWeAre";
 import Events from "./pages/Events";
 import EventDetails from "./pages/EventDetails";
 import RegisterForEvent from "./pages/RegisterForEvents";
-import RegisterProvider from "./hooks/RegisterContext";
 import Contact from "./pages/Contact";
 import SupportUs from "./pages/SupportUs";
+
+import GeneralProvider from "./hooks/GeneralContext";
+import RegisterProvider from "./hooks/RegisterContext";
+
 export default function App() {
   return (
     <GeneralProvider>
