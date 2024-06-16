@@ -1,17 +1,10 @@
 .support-us-header{
-    padding: 2rem 4rem;
+    padding: 4rem 4rem;
     padding-top: 7rem;
-    height: 90vh;
-    background-image: url('./../../../assets/photo_2023-05-01_21-16-01.jpg');
-    background-size: cover;
-    background-position: top -10px center;
     color: #f7f7f7;
     position: relative;
     background-repeat: no-repeat;
-}
-.support-us-header *:not(.shade){
-    position: relative;
-    z-index: 100;
+    color: #254051;
 }
 .support-us-header h1{
     font-size: 3.5rem;
@@ -21,19 +14,9 @@
     font-size: 1.3rem;
     line-height: 1.5;
 }
-.support-us-header .shade{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 2;
-    background-color: rgba(0,0,0,0.6);
-    top: 0;
-    left: 0;
-}
 @media(max-width:850px){
     .support-us-header{
         padding-inline: 2rem;
-        height: 70vh;
     }
     .support-us-header p{
         font-size: 1rem;
@@ -51,6 +34,7 @@
 @media(max-width:550px){
     .support-us-header{
         padding-inline: 1rem;
+        padding-top: 5rem;
     }
     .support-us-header h1{
         font-size: 1.7rem;
