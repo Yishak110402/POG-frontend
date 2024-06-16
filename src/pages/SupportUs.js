@@ -15,7 +15,7 @@ export default function SupportUs(){
         <div>
             <SupportUsHeader/>
             <SupportMethods/>
-            {/* <SupportDonation/> */}
+            <SupportDonation/>
         </div>
     )
 }
