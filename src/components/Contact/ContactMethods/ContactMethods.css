@@ -13,3 +13,47 @@
     height: 50px;
     fill: #254051;
 }
+@media(max-width:900px){
+    .contact-methods li svg{
+        width: 40px;
+        height: 40px;
+    }
+    .methods li *{
+        font-size: 0.9rem;
+    }
+}
+@media(max-width:750px){
+    .contact-methods li *{
+        font-size: 0.75rem;
+    }
+}
+@media(max-width:650px){
+    .contact-methods{
+        margin-top: 2rem;
+    }
+    .contact-methods ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .contact-methods li{
+        width: 30%;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-inline: 3rem;
+    }
+}
+
+@media(max-width:450px){
+    .contact-methods li{
+        padding-inline: 1rem;
+    }
+    .contact-methods li *{
+        font-size: 0.6rem;
+    }
+}

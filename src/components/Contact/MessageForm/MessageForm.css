@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
 }
 .message-form form section div:last-child{
     flex-grow: 0;
@@ -49,6 +50,9 @@
     padding: 0.5rem;
     padding-bottom: 0.2rem;
 }
+.message-form form section input:focus{
+    border: 0;
+}
 .message-form button{
     margin-left: 1.5rem;
     margin-top: 1rem;
@@ -66,4 +70,29 @@
     background-color: #f7f7f7;
     color: #254051;
     border: 1px solid #254051;
+}
+@media(max-width:1200px){
+    .message-form form section label{
+        font-size: 0.9rem;
+    }
+    .message-form form section input{
+        width: 80%;
+    }
+}
+@media(max-width:950px){
+    .message-form form section input{
+        width: 70%;
+        font-size: 0.8rem;
+    }
+    .message-form form section label{
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:850px) {
+    .message-form form section input{
+        width: 100%;
+    }
+    .message-form section div{
+        flex-flow: column;
+    }
 }
