@@ -1,8 +1,11 @@
 import './Subscription.css'
 import subImage from './../../../assets/subImage.jpg'
 import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
+import { GeneralContext } from '../../../hooks/GeneralContext';
 export default function Subscription() {
   const navigate = useNavigate()
+  const {setSubData, handleSubscription} = useContext(GeneralContext)
   return (
     <div className="subscription">
       <div className="support-section">
@@ -20,8 +23,8 @@ export default function Subscription() {
       <div className='subscription-section'>
         <h3>Subscribe to our newsletter</h3>
         <label htmlFor='subscription-email'>Enter your email</label>
-        <input type='email' placeholder='john.doe@example.com' id='subscription-email'/>
-        <button>Join</button>
+        <input onChange={(e)=>(setSubData(e.target.value))} type='email' placeholder='john.doe@example.com' id='subscription-email'/>
+        <button onClick={handleSubscription}>Join</button>
       </div>
     </div>
   );
