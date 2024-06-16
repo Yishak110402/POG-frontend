@@ -1,7 +1,10 @@
 import "./Footer.css";
 import logo from "./../../assets/providenceofgracelogo.png";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { GeneralContext } from "../../hooks/GeneralContext";
 export default function Footer() {
+  const { handleSubscription, setSubData } = useContext(GeneralContext);
   return (
     <footer className="footer">
       <img src={logo} alt="" />
@@ -9,9 +12,9 @@ export default function Footer() {
         <p>Subscribe to our newsletter</p>
         <div>
           <label>Email : </label>
-          <input type="email" />
+          <input onChange={(e) => setSubData(e.target.value)} type="email" />
         </div>
-        <button>Subscribe</button>
+        <button onClick={handleSubscription}>Subscribe</button>
       </div>
       <nav>
         <ul className="footer-links">

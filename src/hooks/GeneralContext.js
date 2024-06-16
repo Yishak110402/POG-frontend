@@ -2,6 +2,8 @@ import { createContext, useState } from "react";
 
 export const GeneralContext = createContext();
 export default function GeneralProvider({ children }) {
+  const apiURL = "https://pog-backend-hc3e.onrender.com"
+  const [subData, setSubData] = useState("")
   const [navOpen, setNavOpen] = useState(false);
   const [events, setEvents] = useState([
     {
@@ -70,6 +72,28 @@ export default function GeneralProvider({ children }) {
     e.preventDefault();
     alert("Message Sent");
   }
+
+  async function handleSubscription(){
+    try {
+      const res = await fetch(`${apiURL}/api/v1/email/subscribe`,{
+        method:"POST",
+        headers:{
+          "Content-type":"application/json"
+        },
+        body: JSON.stringify({
+          email: subData
+        })
+      })
+      const data = await res.json()
+      if(data.status === "fail"){
+        alert(data.message)
+        return
+      }
+      alert("Subscription successful")
+    } catch (error) {
+      
+    }
+  }
   return (
     <GeneralContext.Provider
       value={{
@@ -78,6 +102,10 @@ export default function GeneralProvider({ children }) {
         events,
         setEvents,
         sendMessage,
+        apiURL,
+        handleSubscription,
+        subData,
+        setSubData
       }}>
       {children}
     </GeneralContext.Provider>
