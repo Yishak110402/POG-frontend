@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import SupportUsHeader from "../components/SupportUs/SupportUsHeader/SupportUsHeader";
 import SupportMethods from "../components/SupportUs/SupportMethods/SupportMethods";
-// import SupportDonation from "../components/SupportUs/SupportDonation/SupportDonation";
+import SupportDonation from "../components/SupportUs/SupportDonation/SupportDonation";
 
 export default function SupportUs(){
     useEffect(function(){
@@ -15,7 +15,7 @@ export default function SupportUs(){
         <div>
             <SupportUsHeader/>
             <SupportMethods/>
-            {/* <SupportDonation/> */}
+            <SupportDonation/>
         </div>
     )
 }
