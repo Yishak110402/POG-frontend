@@ -10,6 +10,7 @@ import EventDetails from "./pages/EventDetails";
 import RegisterForEvent from "./pages/RegisterForEvents";
 import RegisterProvider from "./hooks/RegisterContext";
 import Contact from "./pages/Contact";
+import SupportUs from "./pages/SupportUs";
 export default function App() {
   return (
     <GeneralProvider>
@@ -19,6 +20,7 @@ export default function App() {
           <Routes>
             <Route element={<Homepage />} index />
             <Route path="/who-we-are" element={<WhoWeAre />} />
+            <Route path="/support-us" element={<SupportUs/>} />
             <Route path="/events" element={<Events />} />
             <Route path="/events/:id" element={<EventDetails />} />
             <Route path="/events/:id/register" element={<RegisterForEvent />} />
